@@ -1,0 +1,8 @@
+div {
+  margin: 0 auto;
+  width: 60vw;
+}
+div#form-area {
+  height: 20em;
+  border: 0.2em solid black;
+}

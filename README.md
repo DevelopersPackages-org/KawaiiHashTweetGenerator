@@ -2,7 +2,7 @@
 
 かわいいツイート文面生成器 ver 0.9.0
 
-by 佐藤陽花(@nemu_out@twitter.com)
+by 佐藤陽花([@nemu_out@twitter.com](https://twitter.com/nemu__out))
 
 under MIT+3 License
 
