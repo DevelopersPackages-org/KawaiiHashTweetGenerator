@@ -2,7 +2,17 @@ div {
   margin: 0 auto;
   width: 60vw;
 }
-div#form-area {
+div#main-text {
   height: 20em;
-  border: 0.2em solid black;
+  border: 0.11em solid black;
+}
+div.hide {
+  display: none;
+}
+div.this-is {
+  display: block;
+}
+h1,
+h2 {
+  height: 0.6em;
 }

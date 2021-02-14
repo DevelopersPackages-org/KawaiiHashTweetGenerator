@@ -9,15 +9,43 @@
     <body>
         <div id="header">
             <h1>かわいいツイート文面生成サイト</h1>
-            <h2>Version 0.1.0<br />with かわいいツイート文面生成器 0.9.0</h2>
+            <h2>Version 0.1.0 | Updated in 13rd Feb. 2021</h2>
+            <h2>with <a href="">かわいいツイート文面生成器 0.9.0</a></h2>
         </div>
         <div id="form-area">
-            <form></form>
+            <form action="./out.js">
+                <div id="main-form">
+                    <br /><br />
+                    <input type="radio" name="tweet-type" value="kawaii">かわいいツイート
+                    <input type="radio" name="tweet-type" value="harassment">ハラスメントツイート
+                    <input type="radio" name="tweet-type" value="goset">セットツイート<br /><br />
+                </div>
+                <div id="kawaii">
+                    <input type="radio" name="mode" value="hash">ハッシュタグ
+                    <input type="radio" name="mode" value="ment">メンション<br />
+                    <span>名前：</span><input type="text" id="name" /><br />
+                    <br />
+                </div>
+                <div id="harassment" class="hide">
+                    1日<input type="text" id="name" />回の<input type="text" id="harassment" />ハラスメント<br />
+                    <br />
+                </div>
+                <div id="harassment" class="goset">
+                    <input type="text" id="namea" />と<input type="text" id="nameb" />はセット<br />
+                    <br />
+                </div>
+                <div id="form-submit">
+                    <input type='submit' value="生成する" />
+                    <input type='reset' value="リセット" />
+                    <br />
+                    <br />
+                </div>
+            </form>
         </div>
-        <div id="maiversion n-text"></div>
+        <div id="main-text"></div>
         <div id="footer">
-            <button>ツイートする</button><br />
-            <a href="">Githubのリポジトリ</a><br />
+            <br />
+            <a id="tweet" href="">ツイートする</a><br /><br /><br />
             Copyright (c) 2021 Haruka Sato<br />
             under MIT+3 License(<a href="">MIT Articles</a> / <a href="">Additional Articles</a>)
 
